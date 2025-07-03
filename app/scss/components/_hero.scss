@@ -102,12 +102,12 @@
   }
 
   &__image {
-    margin-left: -180px;
-    margin-bottom: -220px;
+    margin-left: u.rem(-180);
+    margin-bottom: u.rem(-220);
 
     @include u.breakpoint-down(large) {
       margin: 0;
-      margin-top: -100px;
+      margin-top: u.rem(-100);
     }
 
     @include u.breakpoint-down(small) {
